@@ -18,7 +18,6 @@ public class Main {
         double tipCost = total * (tipPercent / 100);
 
         System.out.printf("Your total tip cost is $%f.%n", tipCost);
-
     }
 
     static double[] getItems() {
