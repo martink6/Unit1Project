@@ -39,6 +39,9 @@ public class Main {
         double costPerPerson = totalCostWithTip / partySize;
         System.out.printf("Cost per person: $%.2f%n", costPerPerson);
 
+        double tipPerPerson = tipCost / partySize;
+        System.out.printf("Tip per person: $%.2f%n", tipPerPerson);
+
         System.out.println("===================");
     }
 
